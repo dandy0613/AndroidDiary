@@ -90,7 +90,7 @@ public class WriteActivity extends BaseActivity {
 	protected void initView() {
 		final TextView bar_title = (TextView) findViewById(R.id.bar_title);
 		action = (TextView) findViewById(R.id.bar_action);
-		action.setText(getString(R.string.submit));
+		action.setText(getString(R.string.save));
 		bar_title.setText(getString(R.string.write_diary));
 		Intent intent = getIntent();
 		flag = intent.getIntExtra("flag", DIARY_INSERT);
