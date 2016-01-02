@@ -65,6 +65,8 @@ public class MainActivity extends BaseActivity {
 			getResources().updateConfiguration(config, getResources().getDisplayMetrics());
 			break;
 		}
+		setTitle(getString(R.string.app_name));
+		done.setText(R.string.done);
 		switch(confirm){
 			case 0:
 				password.setHint(getResources().getText(R.string.firstPwd));
@@ -95,11 +97,7 @@ public class MainActivity extends BaseActivity {
 			@SuppressLint({ "ResourceAsColor", "NewApi" })
 			@Override
 			public void afterTextChanged(Editable s) {
-				if(temp.length()==0){
-					clear.setClickable(false);
-					clear.setImageResource(R.drawable.clear_unable);
-				}
-				else{
+				if(temp.length() > 0){
 					clear.setClickable(true);
 					clear.setImageResource(R.drawable.clear_enable);
 					clear.setOnClickListener(new OnClickListener() {
@@ -108,6 +106,9 @@ public class MainActivity extends BaseActivity {
 							password.setText("");
 						}
 					});
+				}else{
+					clear.setClickable(false);
+					clear.setImageResource(R.drawable.clear_unable);
 				}
 				if(temp.length()==6){
 					//The password should be consist of 6 numbers

@@ -33,7 +33,6 @@
         android:layout_margin="20dp"
         android:gravity="center"
         android:orientation="horizontal"
-        android:text="@string/done"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:background="@android:color/darker_gray" >

@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
     tools:context="${relativePackage}.${activityClass}" >
 
     <TextView 
@@ -16,6 +17,7 @@
     <TextView
         android:id="@+id/detail_category"
         android:layout_toRightOf="@id/detail_textView1"
+        android:layout_alignTop="@id/detail_textView1"
         android:layout_marginBottom="5dp"
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -34,6 +36,7 @@
         android:id="@+id/detail_created_at"
         android:layout_below="@id/detail_category"
         android:layout_toRightOf="@id/detail_textView2"
+        android:layout_alignTop="@id/detail_textView2"
         android:layout_marginBottom="5dp"
         android:layout_width="match_parent"
         android:layout_height="40dp"
