@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView 
+        android:id="@+id/detail_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/_category"/>
+    <TextView
+        android:id="@+id/detail_category"
+        android:layout_toRightOf="@id/detail_textView1"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="left|center_vertical"
+        android:textSize="20sp"/>
+    
+    <TextView 
+        android:id="@+id/detail_textView2"
+        android:layout_below="@id/detail_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/created_at"/>
+    <TextView
+        android:id="@+id/detail_created_at"
+        android:layout_below="@id/detail_category"
+        android:layout_toRightOf="@id/detail_textView2"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="left|center_vertical"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/delete_diary"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"/>
+    
+    <TextView
+        android:id="@+id/detail_content"
+        android:layout_below="@id/detail_created_at"
+        android:layout_above="@id/delete_diary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:lines="13"
+        android:scrollbars="vertical" />
+</RelativeLayout>

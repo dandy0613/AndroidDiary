@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基本 -->
+    <string name="app_name">日记本</string>
+    <string name="my_diary">我的日记</string>
+    <string name="write_diary">写日记</string>
+    <string name="filter">筛选</string>
+    <string name="title_activity_detail">日记内容</string>
+    <string name="category">分类</string>
+    <string name="content">内容</string>
+	<string name="_category">分类：</string>
+	<string name="created_at">创建于</string>
+
+    <!-- 页面 -->
+    <string name="diary">日记</string>
+    <string name="all">全部</string>
+
+    <!-- 行为 -->
+    <string name="edit">编辑</string>
+    <string name="submit">发布</string>
+    <string name="delete">删除</string>
+    <string name="done">确定</string>
+    <string name="cancel">取消</string>
+    <string name="switch_language">切换语言</string>
+    <string name="add_category">+添加分类</string>
+
+    <!-- 提示 -->
+    <string name="firstPwd">请设置六位数字密码</string>
+    <string name="secondPwd">请再次确认密码</string>
+    <string name="inputPwd">请输入密码</string>
+    <string name="notMatchedPwd">两次输入的密码不一样</string>
+    <string name="matchedPwd">恭喜，录入成功！</string>
+    <string name="wrongPwd">密码错误</string>
+    <string name="emptyPwd">密码不能为空！</string>
+    <string name="write_title">请输入日记标题</string>
+    <string name="write_content">请输入日记内容</string>
+    <string name="write_category">请选择日记分类</string>
+    <string name="emptyContent">日记内容不能为空！</string>
+    <string name="noDiary">还没有日记，赶紧写一篇吧~</string>
+
+</resources>

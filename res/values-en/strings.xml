@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基本 -->
+    <string name="app_name">Diary Book</string>
+    <string name="my_diary">My Diary</string>
+    <string name="write_diary">Write Diary</string>
+    <string name="filter">filter</string>
+    <string name="title_activity_detail">Diary Content</string>
+    <string name="category">Category</string>
+    <string name="content">Content</string>
+	<string name="_category">Category: </string>
+	<string name="created_at">Created at</string>
+
+    <!-- 页面 -->
+    <string name="diary">Diary</string>
+    <string name="all">All</string>
+
+    <!-- 行为 -->
+    <string name="edit">Edit</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Delete</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="switch_language">Switch language</string>
+    <string name="add_category">+Add Category</string>
+
+    <!-- 提示 -->
+    <string name="firstPwd">Set up password with six number</string>
+    <string name="secondPwd">Confirm password again</string>
+    <string name="inputPwd">Input your password</string>
+    <string name="notMatchedPwd">Password not matched</string>
+    <string name="matchedPwd">Succeed</string>
+    <string name="wrongPwd">Wrong Password</string>
+    <string name="emptyPwd">Password should not be empty</string>
+    <string name="write_title">Input your title</string>
+    <string name="write_content">Input your content</string>
+    <string name="write_category">Select category</string>
+    <string name="emptyContent">Diary content should not be empty</string>
+    <string name="noDiary">There is no diary, write one~</string>
+
+</resources>
